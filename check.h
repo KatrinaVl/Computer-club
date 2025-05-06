@@ -50,6 +50,7 @@ tm_ Check_time(std::string &str_check, std::string &str_out) {
     return t;
 }
 
+
 std::string Check_name(std::string &str_check, std::string &str_out) {
     for (auto i: str_check) {
         if (i != '_' && !std::isdigit(i) && !std::isalpha(i)) {
